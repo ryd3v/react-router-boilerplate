@@ -30,7 +30,7 @@
     "max-len": ["error", { "code": 100, "tabWidth": 2 }],
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/jsx-filename-extension": [1, { "allow": "as-needed" }],
     "react/prop-types": "off",
     "import/no-unresolved": "off",
     "consistent-return": "off",

@@ -1,5 +1,3 @@
-/* eslint-disable react/function-component-definition */
-/* eslint-disable react/prop-types */
 import React, { FC, ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import './App.css'
