@@ -2,8 +2,11 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className="Home">
-      <h1>Home</h1>
+    <div>
+      <section>
+        <h1>Home</h1>
+        <p className={'mt-2'}>Boilerplate for React router</p>
+      </section>
     </div>
   )
 }

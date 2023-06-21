@@ -1,13 +1,12 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router } from 'react-router-dom'
-
-// Routes
 import AppRoutes from './routes'
 
-render(
-  <Router>
-    <AppRoutes />
-  </Router>,
-  document.getElementById('root')
+createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <Router>
+      <AppRoutes />
+    </Router>
+  </React.StrictMode>
 )
